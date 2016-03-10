@@ -1,0 +1,86 @@
+nav a{
+	text-decoration: none;
+}
+
+nav ul,li{
+	list-style: none;
+	text-align: center;
+}
+ul{
+	padding: 5px;
+}
+nav{
+	margin-top: 30px;
+	padding-bottom: 0;
+}
+label {
+    width: 200px;
+    border-radius: 3px;
+    border: 1px solid #D1D3D4;
+    cursor: pointer;
+	padding: 2px;
+	display: block;
+}
+
+a{
+	color:green;
+}
+nav a:hover{
+	color:blue;
+	background: #e7e51a;
+}
+a:visited{
+	color:brown;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+input[type="radio"]:checked + label {
+    color: green;
+    background: #b3b3ff;
+}
+
+#radio1:checked~nav {
+	float: left;
+	border:2px solid green;
+	display:inline-block;
+}
+#radio2:checked~nav {
+	float: right;
+	border:2px solid green;
+	display:inline-block;
+}
+#radio3:checked~ nav li{
+	display:inline;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+#radio3:checked~ nav{
+	border-top:2px solid green;
+	border-bottom:2px solid green;
+	width:300px;
+	margin: auto;
+}
+#radio4:checked~nav ul a{
+	display:block;
+}
+#radio4:checked~nav ul li{
+	position:relative;
+	float:left;
+}
+#radio4:checked~nav ul li:hover{
+	background:orange;
+}
+#radio4:checked~nav ul ul{
+	display:none;
+	position:absolute;
+}
+#radio4:checked~nav ul ul li{
+	float:none;
+	width:150px;
+}
+#radio4:checked~nav ul li:hover > ul{
+	display:block
+}

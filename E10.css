@@ -1,0 +1,23 @@
+p{
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Comic Sans MS';
+}
+@keyframes popup {
+  50% {
+  	transform: scale(2);
+  }
+  100% {
+  	transform: scale(1);
+  }
+}
+span{
+	color:#19199f;
+}
+span:hover{
+	display: inline-block;
+	color: #3ba40c;
+	animation-name: popup;
+    animation-duration: 1s;
+	
+}

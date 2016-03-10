@@ -1,0 +1,19 @@
+body{
+	height: 700px;
+	
+	background-image: 
+	url(http://red-team-design.com/wp-content/uploads/2010/10/rtd-img.png), 
+	url(https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Armada_Music_logo.svg/1280px-Armada_Music_logo.svg.png),
+	url(http://img.photobucket.com/albums/v231/PrayciousAnjel/Fantasy%20Crests/Fantasy%20Orbs/glassorb1.png),
+	linear-gradient(to right, rgb(216, 164, 15), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top right, bottom center, center, right;
+    
+}
+p{
+	color: blue;
+}
+.content{
+	margin: auto;
+}
+}
